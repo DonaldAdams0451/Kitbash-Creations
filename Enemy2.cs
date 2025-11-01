@@ -13,7 +13,7 @@ public class Enemy2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(new Vector3(-1, 0, 0) * Time.deltaTime * 5f);
+        transform.Translate(new Vector3(-1, 0, 0) * Time.deltaTime * 4f);
         if (transform.position.y < -6.5f)
         {
             Destroy(this.gameObject);
